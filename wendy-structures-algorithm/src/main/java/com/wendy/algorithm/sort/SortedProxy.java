@@ -1,5 +1,9 @@
 package com.wendy.algorithm.sort;
-
+/**
+ * 排序算法代理类，用来打印排序信息
+ * @author tony
+ *
+ */
 public class SortedProxy {
 
 	private Class<? extends AbstractSorted> clazz;

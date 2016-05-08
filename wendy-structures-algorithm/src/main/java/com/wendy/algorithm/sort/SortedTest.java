@@ -1,5 +1,9 @@
 package com.wendy.algorithm.sort;
-
+/**
+ * 排序算法测试类.
+ * @author tony
+ *
+ */
 public class SortedTest {
 	 private static int[] arr = {23,4,67,8,89,12,41};
 	 private int[] a ;
