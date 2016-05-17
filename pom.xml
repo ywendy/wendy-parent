@@ -11,7 +11,15 @@
 		<jdk.version>1.7</jdk.version>
 	</properties>
 
-
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>3.4.6</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<pluginManagement>
@@ -33,5 +41,6 @@
 		<module>wendy-structures-algorithm</module>
 		<module>wendy-thread</module>
 		<module>wendy-base-java</module>
+		<module>wendy-frame-parent</module>
 	</modules>
 </project>
