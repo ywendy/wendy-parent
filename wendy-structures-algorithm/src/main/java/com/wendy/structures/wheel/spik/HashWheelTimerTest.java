@@ -1,21 +1,12 @@
 package com.wendy.structures.wheel.spik;
 
-import com.spikhalskiy.hashedwheeltimer.HashedWheelTimer;
-import com.spikhalskiy.hashedwheeltimer.SystemNanoClock;
-import com.spikhalskiy.hashedwheeltimer.Task;
-import com.spikhalskiy.hashedwheeltimer.Timer;
-
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
 /**
  * Created by Administrator on 2017/11/15.
  */
 public class HashWheelTimerTest {
 
     public static void main(String[] args) {
-        final HashedWheelTimer wheel = new HashedWheelTimer(new SystemNanoClock(),50, TimeUnit.MILLISECONDS,512);
+       /* final HashedWheelTimer wheel = new HashedWheelTimer(new SystemNanoClock(),50, TimeUnit.MILLISECONDS,512);
 
         ScheduledExecutorService scheduledExecutorService = Executors.newSingleThreadScheduledExecutor();
         scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
@@ -31,7 +22,7 @@ public class HashWheelTimerTest {
             public void run(Timer timer) {
                 System.out.println("task-----------");
             }
-        });
+        });*/
 
     }
 
