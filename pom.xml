@@ -8,7 +8,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 	</properties>
 
 	<dependencyManagement>
@@ -42,5 +42,7 @@
 		<module>wendy-thread</module>
 		<module>wendy-base-java</module>
 		<module>wendy-frame-parent</module>
-	</modules>
+        <module>wendy-spring</module>
+        <module>wendy-spi</module>
+    </modules>
 </project>

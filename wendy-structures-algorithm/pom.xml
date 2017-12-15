@@ -6,4 +6,21 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>wendy-structures-algorithm</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.4.Final</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/com.spikhalskiy/hashed-wheel-timer -->
+    <dependency>
+      <groupId>com.spikhalskiy</groupId>
+      <artifactId>hashed-wheel-timer</artifactId>
+      <version>0.3.0-RC1</version>
+    </dependency>
+
+  </dependencies>
 </project>
