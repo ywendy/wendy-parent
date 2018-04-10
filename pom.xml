@@ -44,5 +44,6 @@
 		<module>wendy-frame-parent</module>
         <module>wendy-spring</module>
         <module>wendy-spi</module>
+		<module>wendy-base-java</module>
     </modules>
 </project>
