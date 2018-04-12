@@ -3,6 +3,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>wendy-classloader</module>
+      <module>wendy-clh-lock</module>
     </modules>
     <parent>
     <groupId>com.wendy</groupId>
